@@ -151,4 +151,62 @@ These do not block migration — they inform planning.
 
 ---
 
-## Step 8: A
+## Step 8: Assess Operational Ownership
+
+Document:
+- Primary owner or team
+- On-call responsibility
+- Change control requirements
+- Compliance considerations
+
+A VM without ownership is a VM that should not migrate yet.
+
+---
+
+## Step 9: Categorize the VM
+
+Based on what you learned, classify the VM:
+
+- **Ready for migration**  
+  Clear dependencies, low risk
+
+- **Needs preparation**  
+  Dependencies or constraints to address
+
+- **Not a candidate**  
+  Better left on current platform
+
+All three outcomes are valid.
+
+---
+
+## Deliverables
+
+At the end of this lab, you should have:
+- A documented VM profile
+- A clear risk assessment
+- A migration readiness decision
+
+No VM should move without this information.
+
+---
+
+## Key Takeaways
+
+- Assessment reduces risk more than tooling
+- Most migration issues are discovered here
+- Documentation builds confidence
+- Choosing *not* to migrate is a success
+
+This lab sets the tone for everything that follows.
+
+---
+
+## Next Lab
+
+Continue with:
+- `lab-02-install-ocpv.md`  
+or, if needed:
+- Reassess additional VMs using this same process
+
+Understanding comes before movement.
