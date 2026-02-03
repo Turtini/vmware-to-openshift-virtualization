@@ -47,3 +47,55 @@ This content is written for:
 - Anyone responsible for keeping systems running during change
 
 If you are responsible for uptime, compliance, or auditability, this material is for you.
+
+---
+
+## Guiding Principles
+
+1. **Equivalence over reinvention**  
+   Virtual machines remain virtual machines. The goal is continuity, not disruption.
+
+2. **Small, safe steps**  
+   Migration exercises focus on single VMs and non-production workloads.
+
+3. **Reversibility matters**  
+   Knowing how to roll back is as important as knowing how to move forward.
+
+4. **Operations first**  
+   Day-2 concerns (backup, networking, monitoring, failure domains) are treated as first-class topics.
+
+5. **Transparency builds trust**  
+   Tradeoffs are documented openly. Nothing here assumes a “perfect” environment.
+
+---
+
+## How to Use This Repository
+
+Suggested reading order:
+1. `01-platform-comparison/feature-mapping.md`
+2. `01-platform-comparison/terminology-translation.md`
+3. `04-common-fears-and-myths.md`
+4. `03-migration-exercises/lab-01-assess-vmware.md`
+
+You can stop at any point once you’ve answered your own questions.
+
+---
+
+## Why This Lives in GitHub
+
+This content is published openly to:
+- Enable peer review
+- Encourage reuse and adaptation
+- Provide versioned, auditable guidance
+- Reflect how modern infrastructure is actually operated
+
+Feedback, issues, and improvements are welcome.
+
+---
+
+## Maintainers
+
+This project is maintained by **Turtini**, a Red Hat partner focused on practical, operationally grounded open-source adoption in regulated and enterprise environments.
+
+The material here reflects real-world constraints, not idealized architectures.
+
